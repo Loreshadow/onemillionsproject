@@ -2,20 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-.cta {
+.menu-items {
+  transition: all 0.15s ease-in;
+}
+
+.menu-items:hover {
+  color: rgb(170, 170, 170);
+}
+
+.cta--primary {
     background-color: #D9534F;
     border-radius: 5px;
     padding: 15px 25px;
     font-size: 1.5rem;
+    transition:  all 0.15s ease-in;
   }
 
-  .cta--primary {
+  .cta--primary:hover {
+    background-color: #c84844;
+    box-shadow: 1.5px 1.75px 5.5px 1.5px rgba(255, 255, 255, 0.514);
+  }
+
+  .cta--secondary {
     background-color: white;
     color: #D9534F;
     padding:2.5px 15px;
     margin-top: 3.5%;
     border-radius: 2.5px;
   }
+
+  .cta--secondary:hover {
+    background-color: rgb(217, 214, 214);
+    border: 1px solid rgba(116, 115, 115, 0.373);
+    box-shadow: 1.75px 2.25px 7px 1.5px #d9544f5c;
+  } 
 
   /* section cards  */
 
