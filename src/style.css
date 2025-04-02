@@ -32,7 +32,7 @@
     background-color: #D9534F;
     position: absolute;
     left: 12.5%;
-    top: 120%;
+    bottom: -1.5rem;
   }
 
   #description-tittle::after {
@@ -43,5 +43,5 @@
     background-color: #D9534F;
     position: absolute;
     left: 45.5%;
-    bottom: 0;
+    bottom: -0.75rem;
   }
