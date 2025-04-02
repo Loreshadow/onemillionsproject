@@ -30,16 +30,18 @@
     width: 75%;
     height: 1.5px;
     background-color: #D9534F;
-    margin-left: 15%;
+    position: absolute;
+    left: 12.5%;
+    top: 120%;
   }
 
   #description-tittle::after {
     content: "";
     display: inline-block;
-    width: 15%;
+    width: 10%;
     height: 1.5px;
     background-color: #D9534F;
     position: absolute;
-    left: 42.5%;
+    left: 45.5%;
     bottom: 0;
   }

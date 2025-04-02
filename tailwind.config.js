@@ -5,10 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         arvo:['arvo'],
+        helvetica:['helvetica'],
       },
-        fontFamily: {
-          helvetica:['helvetica'],
-        }
     },
   },
   plugins: [],
