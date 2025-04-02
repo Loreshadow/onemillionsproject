@@ -2,7 +2,14 @@
 module.exports = {
   content: ["src/**/*.{html,js}","*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        arvo:['arvo'],
+      },
+        fontFamily: {
+          helvetica:['helvetica'],
+        }
+    },
   },
   plugins: [],
 }
